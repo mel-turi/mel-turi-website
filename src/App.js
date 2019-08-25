@@ -6,7 +6,7 @@ import About from './About';
 import Narrations from './Narrations';
 
 import Contact from './Contact';
-import './App.css';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {

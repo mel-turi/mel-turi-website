@@ -4,23 +4,25 @@ import Content from './Content';
 const item1 = {
   title: <h1>About me</h1>,
   content: <p>Bio goes here</p>,
-  class: 'about-me'
+  class: 'about-me',
+  animated: true
 };
 const item2 = {
   title: <h3> </h3>,
   content: <p> </p>,
-  class: 'hide'
+  class: 'hide',
+  animated: true
 };
 const item3 = {
   title: <h3> </h3>,
-  content: (
+  content: 
     <img
-      src='https://images.unsplash.com/photo-1468327768560-75b778cbb551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80'
-      width='100px'
+      src='https://images.unsplash.com/photo-1468327768560-75b778cbb551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80' 
       alt='profile pic'
     />
-  ),
-  class: 'profile-pic'
+  ,
+  class: 'profile-pic',
+  animated: true
 };
 const pageInfo = {
   class: 'about-primary',

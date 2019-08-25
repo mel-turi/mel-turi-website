@@ -4,17 +4,20 @@ import Content from './Content';
 const item1 = {
   title: <h1>Book 1 Title</h1>,
   content: <p>Book 1 Info</p>,
-  class: 'book1'
+  class: 'book1',
+  animated: true
 };
 const item2 = {
   title: <h3>Book 2 Title</h3>,
   content: <p>Book 2 Info</p>,
-  class: 'book2'
+  class: 'book2',
+  animated: true
 };
 const item3 = {
   title: <h3> </h3>,
   content: <p> </p>,
-  class: 'hide'
+  class: 'hide',
+  animated: false
 };
 const pageInfo = {
   class: 'narrations-primary',

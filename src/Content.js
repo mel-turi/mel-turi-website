@@ -10,17 +10,20 @@ const Content = props => {
     setItem1({
       title: props.item1.title,
       content: props.item1.content,
-      class: props.item1.class
+      class: props.item1.class,
+      animated: props.item1.animated
     });
     setItem2({
       title: props.item2.title,
       content: props.item2.content,
-      class: props.item2.class
+      class: props.item2.class,
+      animated: props.item2.animated
     });
     setItem3({
       title: props.item3.title,
       content: props.item3.content,
-      class: props.item3.class
+      class: props.item3.class,
+      animated: props.item3.animated
     });
     setPageInfo({
       class: props.pageInfo.class,
@@ -30,12 +33,13 @@ const Content = props => {
   }, []);
 
   return (
+    <div className='main-container'>
     <main className={pageInfo.class}>
       <div className={item1.class}>
-        {item1.title}
-        {item1.content}
-      </div>
-      <aside className={pageInfo.secondary}>
+          {item1.title}
+          {item1.content}
+        </div>
+      <div className={pageInfo.secondary}>
         <div className={item2.class}>
           {item2.title}
           {item2.content}
@@ -44,8 +48,9 @@ const Content = props => {
           {item3.title}
           {item3.content}
         </div>
-      </aside>
+      </div>
     </main>
+    </div>
   );
 };
 

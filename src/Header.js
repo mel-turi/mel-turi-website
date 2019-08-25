@@ -7,17 +7,18 @@ export class Header extends Component {
     return (
       
 
-              <nav className='nav-wrapper'>
+      <nav className='nav-wrapper'>
 
-<Spring from={{opactiy: 0, marginLeft: -1000 }}
+      <Spring from={{opactiy: 0, marginLeft: -1000 }}
         to={{opacity: 1, marginLeft: 0}}
         config={{delay: 5, duration: 500}}
       >
         {props => (
-        <div style={props} className='title'>Mel Turi</div>
+          <div style={props} className='title'>Mel Turi</div>
         )}
-        </Spring>
-        <Spring from={{opactiy: 0, marginRight: -1000 }}
+      </Spring>
+
+      <Spring from={{opactiy: 0, marginRight: -1000 }}
         to={{opacity: 1, marginRight: 0}}
         config={{delay: 97, duration: 500}}
       >
