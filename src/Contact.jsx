@@ -2,7 +2,7 @@ import React from 'react';
 import Content from './Content';
 
 const item1 = {
-  title: <h1> </h1>,
+  title: <h3>Contact me</h3> ,
   content: (
 
     <form>
@@ -21,7 +21,7 @@ const item1 = {
   animated: true
 };
 const item2 = {
-  title: <h1>Contact Mel</h1>,
+  title: <h1>Follow me</h1>,
   content: (
     <ul>
       <li>
