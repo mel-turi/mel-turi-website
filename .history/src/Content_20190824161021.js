@@ -1,0 +1,28 @@
+import React from 'react';
+
+class Content extends React.Component {
+  constructor(props) {
+    super();
+  }
+
+  componentDidMount() {
+    if (page === 'about') {
+      console.log(`Here I go killing again!`);
+    }
+    this.setState = {
+      containerpage: 'bloopity'
+    };
+    console.log('test', this.props);
+    return this.state;
+  }
+
+  render() {
+    return (
+      <main className={this.props.state.containerpage}>
+        <h1>{this.props.state.containerpage}</h1>
+      </main>
+    );
+  }
+}
+
+export default Content;
