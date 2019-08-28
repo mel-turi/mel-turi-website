@@ -30,10 +30,12 @@ const Main = () => {
               <div className='home1-contents'>
                 <h1>Big Title</h1>
                 <p>
-                  Mel Turi is a professional voice-over artist, producer, and
-                  mezzo-soprano vocalist based out of a home studio in North
-                  Carolina. While her passion is Science Fiction, she is
-                  available for a variety of projects, as royalty share or PFH.
+                  vestibulum mattis ullamcorper velit sed ullamcorper morbi
+                  tincidunt ornare massa eget egestas purus viverra accumsan in
+                  nisl nisi scelerisque eu ultrices vitae auctor eu augue ut
+                  lectus arcu bibendum at varius vel pharetra vel turpis nunc
+                  eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim
+                  facilisis gravida neque convallis
                 </p>
               </div>
             </div>
@@ -46,7 +48,7 @@ const Main = () => {
             color: 'rgba(0,0,0,0)',
             opactiy: 0,
             marginBottom: -100,
-            transform: 'translate3d(1000px,0,0) scale(1) rotateZ(180deg)'
+            transform: 'translate3d(-1000px,0,0) scale(1) rotateZ(-180deg)'
           }}
           to={{
             color: 'rgba(255, 232, 254,1)',

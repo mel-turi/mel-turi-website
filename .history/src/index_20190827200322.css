@@ -208,10 +208,10 @@ a:hover,
   align-self: flex-start;
   overflow: hidden;
   border-radius: 10px;
-  border: var(--dark-primary-color) solid 1px;
-  padding: 1.5rem;
+  border: var(--dark-primary-color) solid 3px;
+  padding: 10rem 1.5rem;
   background: rgba(255, 255, 255, 0.25);
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2;
   height: auto;
 }

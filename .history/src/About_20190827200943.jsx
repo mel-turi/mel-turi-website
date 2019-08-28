@@ -16,12 +16,9 @@ const About = () => {
             <p>
               Ever since Mel was a young girl she had a passion for literature
               and a natural ability to narrate a good story. With the innate
-              ability to produce a multitude of voices and portray emotion
+              ability to produce a multitude of voices and portrait emotion
               through the spoken word she took to narrating like a duck to
-              water.
-            </p>
-            <p>
-              When not producing, she is a stay at home mom to an artsy
+              water. When not producing, she is a stay at home mom to an artsy
               teenager, an autistic boy/rocket hybrid, and an infant who doesn't
               really do much yet.
             </p>

@@ -209,9 +209,9 @@ a:hover,
   overflow: hidden;
   border-radius: 10px;
   border: var(--dark-primary-color) solid 1px;
-  padding: 1.5rem;
+  padding: 10rem 1.5rem;
   background: rgba(255, 255, 255, 0.25);
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2;
   height: auto;
 }
@@ -237,9 +237,6 @@ a:hover,
   grid-template-columns: 1.25fr 5fr 3.75fr 1.25fr;
   grid-template-rows: 2fr;
   grid-gap: 30px;
-  border: var(--dark-primary-color) solid 1px;
-  padding: 1.5rem;
-  background: rgba(0, 0, 0, 0.25);
 }
 
 .narrations-1 {
@@ -265,33 +262,23 @@ a:hover,
   border-radius: 10px;
   border: var(--dark-primary-color) solid 1px;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.25);
-
+  background: rgba(0, 0, 0, 0.25);
   font-size: 1.2rem;
   line-height: 2;
 }
 .narrations1-content > a > img {
   align-self: center;
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
+  height: inherit;
+  max-height: 100%;
 }
 .narrations2-content {
-  align-self: center;
   overflow: hidden;
   border-radius: 10px;
-  border: var(--dark-primary-color) solid 1px;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.25);
-
-  font-size: 1.2rem;
-  line-height: 2;
+  font-size: 1rem;
 }
-.narrations2-content > a > img {
-  align-self: center;
-  max-width: 100%;
-  max-height: 100vh;
-  margin: auto;
+.narrations2-content > img {
+  height: 10%;
 }
 /* End Narrations */
 

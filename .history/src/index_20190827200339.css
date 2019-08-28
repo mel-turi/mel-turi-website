@@ -209,9 +209,9 @@ a:hover,
   overflow: hidden;
   border-radius: 10px;
   border: var(--dark-primary-color) solid 1px;
-  padding: 1.5rem;
+  padding: 10rem 1.5rem;
   background: rgba(255, 255, 255, 0.25);
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2;
   height: auto;
 }
@@ -226,7 +226,7 @@ a:hover,
   border-radius: 50%;
   height: 20rem;
   width: 20rem;
-  border: var(--dark-primary-color) solid 1px;
+  border: var(--dark-primary-color) solid 3px;
 }
 
 /* End About */

@@ -8,7 +8,7 @@ const Narrations = () => {
   useEffect(() => {
     setPageInfo({
       primaryContent: (
-        <div className='narrations-1'>
+        <div className=''>
           <div className='narrations1-content'>
             <a
               target='_blank'
@@ -24,7 +24,7 @@ const Narrations = () => {
         </div>
       ),
       secondaryContent: (
-        <div className='narrations-2'>
+        <div className=''>
           <div className='narrations2-content'>
             <a
               target='_blank'

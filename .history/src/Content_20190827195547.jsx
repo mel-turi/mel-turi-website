@@ -11,8 +11,8 @@ const Content = () => {
         from={{
           color: 'rgba(0,0,0,0)',
           opactiy: 0,
-          marginBottom: -10,
-          transform: 'translate3d(-1000px,0,0) scale(5) rotateX(90deg)'
+          marginBottom: -100,
+          transform: 'translate3d(-1000px,0,0) scale(1) rotateX(90deg)'
         }}
         to={{
           color: 'rgba(255, 232, 254,1)',
