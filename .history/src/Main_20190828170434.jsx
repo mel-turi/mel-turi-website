@@ -15,7 +15,7 @@ const Main = () => {
             color: 'rgba(0,0,0,0)',
             opactiy: 0,
             marginBottom: -100,
-            transform: 'translate3d(-1000px,0,0) scale(1) rotateZ(-90deg)'
+            transform: 'translate3d(-1000px,0,0) scale(1) rotateZ(-180deg)'
           }}
           to={{
             color: 'rgba(255, 232, 254,1)',
@@ -46,7 +46,7 @@ const Main = () => {
             color: 'rgba(0,0,0,0)',
             opactiy: 0,
             marginBottom: -100,
-            transform: 'translate3d(1000px,0,0) scale(1) rotateZ(90deg)'
+            transform: 'translate3d(1000px,0,0) scale(.5) rotateZ(180deg)'
           }}
           to={{
             color: 'rgba(255, 232, 254,1)',

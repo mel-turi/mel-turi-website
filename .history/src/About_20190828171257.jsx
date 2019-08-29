@@ -26,7 +26,7 @@ const About = () => {
           config={{ duration: 300 }}
         >
           {props => (
-            <div style={props} className='about-2'>
+            <div style={}props className='about-2'>
               <div className='about1-contents'>
                 <h1>About me</h1>
                 <br />

@@ -6,7 +6,7 @@ import { Spring, Keyframes, animated, config } from 'react-spring/renderprops';
 
 const Main = () => {
   // eslint-disable-next-line
-  const [pageInfo, setPageInfo] = useContext(PageContext);
+  const [setPageInfo] = useContext(PageContext);
   useEffect(() => {
     setPageInfo({
       primaryContent: (

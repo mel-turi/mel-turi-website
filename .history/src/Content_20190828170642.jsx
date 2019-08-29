@@ -6,7 +6,7 @@ const Content = () => {
 
   return (
     <main className='main-container'>
-      <div className={pageInfo.pageTitle}>
+      <div style={props} className={pageInfo.pageTitle}>
         {pageInfo.primaryContent}
         {pageInfo.secondaryContent}
       </div>
