@@ -12,10 +12,13 @@ const Contact = () => {
           <div className='contact2-contents'>
             <h1>Contact me</h1>
             <form
+              name='contact'
               method='POST'
               data-netlify='true'
               data-netlify-recaptcha='true'
             >
+              <input type='hidden' name='form-name' value='contact' />
+
               <label>First Name</label>
               <input
                 type='text'
