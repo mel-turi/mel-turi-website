@@ -10,7 +10,7 @@ const Contact = () => {
       primaryContent: (
         <div className='contact-2'>
           <div className='contact2-contents'>
-            <h1>Contact me</h1>
+            <h1>Contact me.</h1>
             <form
               name='contact'
               method='POST'
