@@ -7,6 +7,7 @@ import Narrations from './Narrations';
 import Contact from './Contact';
 
 import { ContentProvider } from './PageContext';
+import { SideMenuProvider } from './SideMenuContext';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -15,7 +16,9 @@ const App = () => {
     <Router>
       <div className='App'>
         <div className='wrapper'>
-          <Header />
+          <SideMenuProvider>
+            <Header />
+          </SideMenuProvider>
           <Switch>
             <ContentProvider>
               <Route path='/' exact render={props => <Main {...props} />} />
