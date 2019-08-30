@@ -10,7 +10,7 @@ const Contact = () => {
       primaryContent: (
         <div className='contact-2'>
           <div className='contact2-contents'>
-            <h1>Contact me.</h1>
+            <h1>Contact me</h1>
             <form
               name='contact'
               method='POST'
@@ -23,14 +23,14 @@ const Contact = () => {
               <input
                 type='text'
                 id='fname'
-                name='firstname'
+                name='fname'
                 placeholder='Your first name..'
               />
               <label>Last Name</label>
               <input
                 type='text'
                 id='lname'
-                name='lastname'
+                name='lname'
                 placeholder='Your last name..'
               />
               <label>Email</label>
