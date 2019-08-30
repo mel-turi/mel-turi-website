@@ -10,41 +10,44 @@ const Contact = () => {
   useEffect(() => {
     setPageInfo({
       primaryContent: (
-        <div className='contact-2'>
-          <div className='contact2-contents'>
-            <h1>Contact me</h1>
-            <form>
-              <label>First Name</label>
-              <input
-                type='text'
-                id='fname'
-                name='firstname'
-                placeholder='Your name..'
-              />
-              <label>Last Name</label>
-              <input
-                type='text'
-                id='lname'
-                name='lastname'
-                placeholder='Your last name..'
-              />
-              <label>Email</label>
-              <input
-                type='email'
-                id='email'
-                name='email'
-                placeholder='Your email..'
-              />
-              <label>Message</label>
-              <textarea
-                id='message'
-                name='message'
-                placeholder='Your message..'
-              ></textarea>
-              <input type='submit' value='Submit' />
-            </form>
-          </div>
-        </div>
+        
+            <div className='contact-2'>
+              <div className='contact2-contents'>
+                <h1>Contact me</h1>
+                <form>
+                  <label>First Name</label>
+                  <input
+                    type='text'
+                    id='fname'
+                    name='firstname'
+                    placeholder='Your name..'
+                  />
+                  <label>Last Name</label>
+                  <input
+                    type='text'
+                    id='lname'
+                    name='lastname'
+                    placeholder='Your last name..'
+                  />
+                  <label>Email</label>
+                  <input
+                    type='email'
+                    id='email'
+                    name='email'
+                    placeholder='Your email..'
+                  />
+                  <label>Message</label>
+                  <textarea
+                    id='message'
+                    name='message'
+                    placeholder='Your message..'
+                  ></textarea>
+                  <input type='submit' value='Submit' />
+                </form>
+              </div>
+            </div>
+          )}
+        </Spring>
       ),
       secondaryContent: (
         <div className='contact-1'>

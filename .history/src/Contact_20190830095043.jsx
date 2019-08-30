@@ -2,8 +2,6 @@ import React, { useEffect, useContext } from 'react';
 import Content from './Content';
 import { PageContext } from './PageContext';
 
-import { Spring } from 'react-spring/renderprops';
-
 const Contact = () => {
   // eslint-disable-next-line
   const [pageInfo, setPageInfo] = useContext(PageContext);

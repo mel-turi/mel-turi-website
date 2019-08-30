@@ -2,16 +2,14 @@ import React, { useEffect, useContext } from 'react';
 import Content from './Content';
 import { PageContext } from './PageContext';
 
-import { Spring } from 'react-spring/renderprops';
-
 const Contact = () => {
   // eslint-disable-next-line
   const [pageInfo, setPageInfo] = useContext(PageContext);
   useEffect(() => {
     setPageInfo({
       primaryContent: (
-        <div className='contact-2'>
-          <div className='contact2-contents'>
+        <div className='contact-1'>
+          <div className='contact1-contents'>
             <h1>Contact me</h1>
             <form>
               <label>First Name</label>
@@ -47,41 +45,39 @@ const Contact = () => {
         </div>
       ),
       secondaryContent: (
-        <div className='contact-1'>
-          <div className='contact1-contents'>
-            <div>
-              <h1>Follow me</h1>
-              <ul>
-                <li>
-                  <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://www.instagram.com/mel.turi'
-                  >
-                    <i className='fa fa-instagram'></i> mel.turi
-                  </a>
-                </li>
-                <li>
-                  <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://www.twitter.com/turimel'
-                  >
-                    <i className='fa fa-twitter'></i> turimel
-                  </a>
-                </li>
+        <div className='contact-2'>
+          <div className='contact2-contents'>
+            <h1>Follow me</h1>
+            <ul>
+              <li>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://www.instagram.com/mel.turi'
+                >
+                  <i className='fa fa-instagram'></i> mel.turi
+                </a>
+              </li>
+              <li>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://www.twitter.com/turimel'
+                >
+                  <i className='fa fa-twitter'></i> turimel
+                </a>
+              </li>
 
-                <li>
-                  <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://www.facebook.com/mel.turi.96'
-                  >
-                    <i className='fa fa-facebook-official'></i> mel.turi.96
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <a
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://www.facebook.com/mel.turi.96'
+                >
+                  <i className='fa fa-facebook-official'></i> mel.turi.96
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       ),

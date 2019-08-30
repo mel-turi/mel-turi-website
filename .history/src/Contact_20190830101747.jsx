@@ -10,41 +10,57 @@ const Contact = () => {
   useEffect(() => {
     setPageInfo({
       primaryContent: (
-        <div className='contact-2'>
-          <div className='contact2-contents'>
-            <h1>Contact me</h1>
-            <form>
-              <label>First Name</label>
-              <input
-                type='text'
-                id='fname'
-                name='firstname'
-                placeholder='Your name..'
-              />
-              <label>Last Name</label>
-              <input
-                type='text'
-                id='lname'
-                name='lastname'
-                placeholder='Your last name..'
-              />
-              <label>Email</label>
-              <input
-                type='email'
-                id='email'
-                name='email'
-                placeholder='Your email..'
-              />
-              <label>Message</label>
-              <textarea
-                id='message'
-                name='message'
-                placeholder='Your message..'
-              ></textarea>
-              <input type='submit' value='Submit' />
-            </form>
-          </div>
-        </div>
+        <Spring
+          from={{
+            opactiy: 0,
+            marginBottom: -100,
+            transform: 'translate3d(0,1000px,0) scale(1) rotateZ(0deg)'
+          }}
+          to={{
+            opacity: 1,
+            marginBottom: 0,
+            transform: 'translate3d(0px,0,0) scale(1) rotateX(0deg)'
+          }}
+          config={{ duration: 300 }}
+        >
+          {props => (
+            <div style={props} className='contact-2'>
+              <div className='contact2-contents'>
+                <h1>Contact me</h1>
+                <form>
+                  <label>First Name</label>
+                  <input
+                    type='text'
+                    id='fname'
+                    name='firstname'
+                    placeholder='Your name..'
+                  />
+                  <label>Last Name</label>
+                  <input
+                    type='text'
+                    id='lname'
+                    name='lastname'
+                    placeholder='Your last name..'
+                  />
+                  <label>Email</label>
+                  <input
+                    type='email'
+                    id='email'
+                    name='email'
+                    placeholder='Your email..'
+                  />
+                  <label>Message</label>
+                  <textarea
+                    id='message'
+                    name='message'
+                    placeholder='Your message..'
+                  ></textarea>
+                  <input type='submit' value='Submit' />
+                </form>
+              </div>
+            </div>
+          )}
+        </Spring>
       ),
       secondaryContent: (
         <div className='contact-1'>

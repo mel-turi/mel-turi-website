@@ -10,7 +10,7 @@ const Main = () => {
   useEffect(() => {
     setPageInfo({
       primaryContent: (
-        <div className='home-1'>
+        <div style={home1Props} className='home-1'>
           <div className='home1-contents'>
             <h1>Big Title</h1>
             <p>

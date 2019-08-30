@@ -240,7 +240,6 @@ a:hover,
   border: var(--dark-primary-color) solid 1px;
   padding: 1.5rem;
   background: rgba(0, 0, 0, 0.25);
-  justify-items: center;
 }
 
 .narrations-1 {
