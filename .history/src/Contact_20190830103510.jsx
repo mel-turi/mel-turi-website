@@ -11,11 +11,7 @@ const Contact = () => {
         <div className='contact-2'>
           <div className='contact2-contents'>
             <h1>Contact me</h1>
-            <form
-              method='POST'
-              data-netlify='true'
-              data-netlify-recaptcha='true'
-            >
+            <form>
               <label>First Name</label>
               <input
                 type='text'
@@ -43,9 +39,6 @@ const Contact = () => {
                 name='message'
                 placeholder='Your message..'
               ></textarea>
-              <div>
-                <div data-netlify-recaptcha='true'></div>
-              </div>
               <input type='submit' value='Submit' />
             </form>
           </div>

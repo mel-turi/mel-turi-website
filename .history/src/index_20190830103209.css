@@ -359,8 +359,7 @@ a:hover,
   font-size: 1rem;
 }
 
-.contact2-contents > h1 {
-  margin-bottom: 1rem;
+.contact2-contents > div > h1 {
   text-align: center;
 }
 /* End contact */
