@@ -1,32 +1,22 @@
-import React, { useEffect, useContext } from 'react';
+import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Spring } from 'react-spring/renderprops';
 import { SideMenuContext } from './SideMenuContext';
 
 const Header = () => {
-  // eslint-disable-next-line
-  const [navToggle, setNavToggle] = useContext(SideMenuContext);
-  useEffect(() => {
-    setNavToggle({
-      isNavVisible: false
-    });
-    // eslint-disable-next-line
-  }, []);
+  const { navToggle, toggleNav } = useContext(SideMenuContext);
 
-  const handleChange = () => {
-    navToggle.isNavVisible = !navToggle.isNavVisible;
-    console.log(navToggle.isNavVisible);
-  };
+  const toggler = navToggle ? 'show-sidebar nav-wrapper' : 'nav-wrapper';
 
   return (
-    <nav className='nav-wrapper'>
+    <nav className={toggler}>
       <Spring
         from={{ opactiy: 0, marginLeft: -1000 }}
         to={{ opacity: 1, marginLeft: 0 }}
         config={{ delay: 5, duration: 500 }}
       >
         {props => (
-          <div style={props} onClick={handleChange} className='title'>
+          <div style={props} onClick={toggleNav} className='title'>
             Mel Turi
           </div>
         )}

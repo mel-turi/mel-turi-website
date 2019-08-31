@@ -11,7 +11,7 @@ const About = () => {
       primaryContent: (
         <div className='about-2'>
           <div className='about1-contents'>
-            <h1>About me</h1>
+            <h1>About Mel</h1>
             <br />
             <p>
               Ever since Mel was a young girl she had a passion for literature
