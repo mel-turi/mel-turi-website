@@ -6,7 +6,9 @@ import { SideMenuContext } from './SideMenuContext';
 const Header = () => {
   const { navToggle, toggleNav } = useContext(SideMenuContext);
 
-  const toggler = navToggle ? 'show-sidebar nav-wrapper' : 'nav-wrapper';
+  const toggler = navToggle
+    ? 'show-sidebar nav-wrapper'
+    : 'show-sidebar nav-wrapper';
 
   return (
     <nav className={toggler}>

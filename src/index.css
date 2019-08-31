@@ -125,12 +125,18 @@ a:hover,
 */
 
 .main-container {
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
   color: var(--light-primary-color);
   font-family: var(--content-font);
   font-size: 1.2rem;
-  overflow: hidden;
+  overflow: auto;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -460,7 +466,13 @@ Media Queries
     min-height: 100vh;
     overflow: hidden;
   }
-
+  .main-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
   .nav-wrapper {
     background: var(--dark-primary-color);
     opacity: 1;
@@ -473,7 +485,7 @@ Media Queries
     z-index: 2;
   }
   .main-navigation ul {
-    display: none;
+    display: block;
   }
   .home {
     margin-top: 1rem;
